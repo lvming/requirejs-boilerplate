@@ -2,6 +2,7 @@
 require.config({
     baseUrl: 'js/',
     packages: [
+        'bootstrap'
     ],
     paths: {
     },
@@ -13,6 +14,7 @@ require.config({
     },
     shim: {
         'underscore': {exports: '_'},
-        'backbone': {deps: ['underscore'], exports: 'Backbone'}
+        'backbone': {deps: ['underscore'], exports: 'Backbone'},
+        'bootstrap': ['jquery']
     }
 });

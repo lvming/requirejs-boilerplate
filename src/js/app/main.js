@@ -4,7 +4,9 @@ define([
     'jquery',
     'async',
     'backbone',
-    'knockout'
+    'knockout',
+    'bootstrap',
+    'css!./main.css'
 ], function (_, $, async, Backbone, ko) {
     "use strict";
     console.assert(_, 'underscore is undefined.');
