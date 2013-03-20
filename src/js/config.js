@@ -1,6 +1,8 @@
 /*global require */
 require.config({
     baseUrl: 'js/',
+    enforceDefine: false,
+    waitSeconds: 10,
     packages: [
         'bootstrap'
     ],
@@ -16,5 +18,10 @@ require.config({
         'underscore': {exports: '_'},
         'backbone': {deps: ['underscore'], exports: 'Backbone'},
         'bootstrap': ['jquery']
+    },
+    config: {
+        'app/main': {
+            apiUrlRoot: 'api/'
+        }
     }
 });
