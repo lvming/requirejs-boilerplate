@@ -7,7 +7,7 @@ define([
     'backbone',
     'knockout',
     'bootstrap',
-    'css!./main.css'
+    'less!./main.less'
 ], function (module, _, $, async, Backbone, ko) {
     "use strict";
     console.assert(_, 'underscore is undefined.');
