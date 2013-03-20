@@ -3,6 +3,7 @@
     dir:'build',
     baseUrl:'js',
     mainConfigFile:'src/js/config.js',
+    keepBuildDir: false,
     removeCombined:true,
     preserveLicenseComments:false,
     inlineText:true,
